@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ad704e94dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="work.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="image/png" href="./Logo/fav2.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Work Page</title>
+</head>
+
+
+<body>
+        <header>
+            <div class="sndbutton" id="sound">
+                <audio id="myAudio">
+                    <source src="./Sound/Relaxing sound.mp3">
+                </audio>
+                <i class="fab fa-soundcloud sound-cloud"></i>
+                <span>Sound</span>
+                <div class="on-off">
+                    <span id="off">OFF</span>
+                    <span id="on">ON</span>
+                </div>
+            </div>
+    
+            <div class="livecount" style="visibility: hidden">
+                <i class="fa-solid fa-eye" style="color: #0bbfff;"></i>
+                <div id="counter" style="color: #fff;">0</div>
+            </div>
+    
+    
+            <div class="btns-container">
+                <i class="fas fa-bars" onclick="on11()" id="blur12"></i>
+            </div>
+        </header>
+
+
+
+    <aside class="aside" id="blur11">
+        <div class="aside-wrapper">
+            <i class="fas fa-times" onclick="off11()"></i>
+            <div class="logo-section">
+                <a class="logo" rel="home" href="#">
+                    <img src="./Logo/logo.png" alt="logo">
+                    <span class="name">Om Prabhu</span>
+                </a>
+                <span class="post">Game Developer</span>
+            </div>
+
+
+            <nav class="nav-links" id="activebutton">
+                <a href="./index.html">Home</a>
+                <a href="#skills">Graphic Projects</a>
+                <a href="./workz.html">UI and UX projects</a>
+                <a href="#personal">Video and Animation</a>
+                <a href="#contactme">Games</a>
+            </nav>
+            <!--social icons-->
+            <ul class="social-icons">
+                <li>
+                    <a href="">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+
+
+    <!--flipping card test-->
+    <div class="grid">
+        <div class="l1" data-aos="fade-in">
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <img src="designers desk glow.jpg">
+                    </div>
+                    <div class="back">
+                        <h1 class="title">Designers Desk</h1>
+                        <p class="body">This project mainly focuses a fictional representation of my designer desk,
+                            The main aim of the project was to make a fictional desk out of pure imagination and try to
+                            attain
+                            it
+                            by recreating it in illustrator and learning the software in the process.....</p>
+
+                        <!--Explore Project Button-->
+                        <a href="#" data-aos="fade-in" id="portfoliozbutton" class="contact-button"
+                            onclick="audio.play();">
+                            <div id="portfoliozbutton">
+                                <span class="bg"></span>
+                                <span class="base"></span>
+                                <span class="text">
+                                    Explore More!
+                                </span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <img src="ebbwork.png">
+                    </div>
+                    <div class="back">
+                        <h1 class="title">Ebb and Flo Systems</h1>
+                        <p class="body">This project was aimed at creating a system which could help free-lancers
+                            overcome their work stress by detecting their mental health status using a device and
+                            visualising a graph and lowering the stress level using AI generated music...</p>
+
+                        <!--Explore Project Button-->
+                        <a href="#" data-aos="fade-in" id="portfoliozbutton" class="contact-button"
+                            onclick="audio.play();">
+                            <div id="portfoliozbutton">
+                                <span class="bg"></span>
+                                <span class="base"></span>
+                                <span class="text">
+                                    Explore More!
+                                </span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <img src="waterfall-1.png">
+                    </div>
+                    <div class="back">
+                        <h1 class="title">Graphical compilation</h1>
+                        <p class="body">This is a compilation of all the graphical works that I have been working on to
+                            upgrade
+                            my skills in the 2d softwares.The compilation includes various different graphic work which
+                            was purely
+                            imaginative and not based
+                            on a theme....</p>
+
+                        <!--Explore Project Button-->
+                        <a href="#" data-aos="fade-in" id="portfoliozbutton" class="contact-button"
+                            onclick="audio.play();">
+                            <div id="portfoliozbutton">
+                                <span class="bg"></span>
+                                <span class="base"></span>
+                                <span class="text">
+                                    Explore More!
+                                </span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!--second row-->
+        <div class="l1" data-aos="fade-in">
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <img src="Bata Commercial.png">
+                    </div>
+                    <div class="back">
+                        <h1 class="title">Bata Commercial</h1>
+                        <p class="body">
+                            This project was aimed at at creating a commercial to promote shoes made by bata and to
+                            promote their shoe customisation service. The video aimed at showing the various stages of
+                            shoe creation through stopmotion animation.....
+                        </p>
+
+                        <!--Explore Project Button-->
+                        <a href="#" data-aos="fade-in" id="portfoliozbutton" class="contact-button"
+                            onclick="audio.play();">
+                            <div id="portfoliozbutton">
+                                <span class="bg"></span>
+                                <span class="base"></span>
+                                <span class="text">
+                                    Explore More!
+                                </span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <img src="yes triangle.gif">
+                    </div>
+                    <div class="back">
+                        <h1 class="title">Yes Triangle(Logo)</h1>
+                        <p class="body">The project was done as a freelancing project for a band of performing
+                            artists(Shankar Mahadevan, Drums Shivmani, Stephan Devassy) who were performing all across
+                            India.The main aim was to promote the shows.....</p>
+
+                        <!--Explore Project Button-->
+                        <a href="#" data-aos="fade-in" id="portfoliozbutton" class="contact-button"
+                            onclick="audio.play();">
+                            <div id="portfoliozbutton">
+                                <span class="bg"></span>
+                                <span class="base"></span>
+                                <span class="text">
+                                    Explore More!
+                                </span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <img src="airtelwork.png">
+                    </div>
+                    <div class="back">
+                        <h1 class="title">Airtel Redesign</h1>
+                        <p class="body">
+                            This project focused on redesigning the existing layout of the airtel app and to test the
+                            app with the new changes. We aimed at making the process of buying different plans easier
+                            and less time consuming for the users......
+                        </p>
+
+                        <!--Explore Project Button-->
+                        <a href="#" data-aos="fade-in" id="portfoliozbutton" class="contact-button"
+                            onclick="audio.play();">
+                            <div id="portfoliozbutton">
+                                <span class="bg"></span>
+                                <span class="base"></span>
+                                <span class="text">
+                                    Explore More!
+                                </span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!--third row-->
+        <div class="l1" data-aos="fade-in">
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <img src="arappcom.gif">
+                    </div>
+                    <div class="back">
+                        <h1 class="title">Subway AR App</h1>
+                        <p class="body">This project mainly focused on creating an online ordering experience for the
+                            fast food chain subway
+                            using the AR feature to enhance the sandwitch making experience and making the process easy
+                            for both the user and staff.....
+                        </p>
+
+                        <!--Explore Project Button-->
+                        <a href="#" data-aos="fade-in" id="portfoliozbutton" class="contact-button"
+                            onclick="audio.play();">
+                            <div id="portfoliozbutton">
+                                <span class="bg"></span>
+                                <span class="base"></span>
+                                <span class="text">
+                                    Explore More!
+                                </span>
+                            </div>
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <img src="Frame 3.png">
+                    </div>
+                    <div class="back">
+                        <h1 class="title">Marvel vs DC Data Storey</h1>
+                        <p class="body">This project mainly focuses on comparing two of the most biggest
+                            sci-fi movie making studios Marvel and DC on the basis of storyline location, character
+                            development
+                            crossovers etc. The project aims at grabbing insights.....</p>
+
+                        <!--Explore Project Button-->
+                        <a href="#" data-aos="fade-in" id="portfoliozbutton" class="contact-button"
+                            onclick="audio.play();">
+                            <div id="portfoliozbutton">
+                                <span class="bg"></span>
+                                <span class="base"></span>
+                                <span class="text">
+                                    Explore More!
+                                </span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <img src="My_Movie_3_.gif">
+                    </div>
+                    <div class="back">
+                        <h1 class="title">Oreo X Pacman</h1>
+                        <p class="body">This project is a 30 sec loop video made using stopmotion animation of the
+                            famous arcade game Pacman The main aim of the project was to understand the method of
+                            stopmotion animation.....</p>
+
+                        <!--Explore Project Button-->
+                        <a href="#" data-aos="fade-in" id="portfoliozbutton" class="contact-button"
+                            onclick="audio.play();">
+                            <div id="portfoliozbutton">
+                                <span class="bg"></span>
+                                <span class="base"></span>
+                                <span class="text">
+                                    Explore More!
+                                </span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <!--fourth row-->
+        <div class="l1" data-aos="fade-in">
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <img src="steam.png">
+                    </div>
+                    <div class="back">
+                        <h1 class="title">Steampunk Adventure</h1>
+                        <p class="body">A 2D game which involves fighting the enemies approching from the other end and
+                            destroying them and gaining
+                            points.The main aim of this project was to understand the working of 2d javascript game....
+                        </p>
+
+                        <!--Explore Project Button-->
+                        <a href="#" data-aos="fade-in" id="portfoliozbutton" class="contact-button"
+                            onclick="audio.play();">
+                            <div id="portfoliozbutton">
+                                <span class="bg"></span>
+                                <span class="base"></span>
+                                <span class="text">
+                                    Explore More!
+                                </span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <img src="carfid.png">
+                    </div>
+                    <div class="back">
+                        <h1 class="title">CaRFID Systems</h1>
+                        <p class="body">This project mainly focuses on the problem of overcrowding and parking on
+                            roadside in crowded and unplanned city.
+                            A city wide parking control system which guides towing department, users about illegal
+                            parking and official parking spaces
+                            .....</p>
+
+                        <!--Explore Project Button-->
+                        <a href="#" data-aos="fade-in" id="portfoliozbutton" class="contact-button"
+                            onclick="audio.play();">
+                            <div id="portfoliozbutton">
+                                <span class="bg"></span>
+                                <span class="base"></span>
+                                <span class="text">
+                                    Explore More!
+                                </span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <img src="Subwork.png">
+                    </div>
+                    <div class="back">
+                        <h1 class="title">Subtrakt App</h1>
+                        <p class="body">This project focused on creating a mobile app prototype for an a subscription
+                            management app.The main aim was to provide the user with a easy and a less time consuming
+                            way of managing multiple subscription.....</p>
+
+                        <!--Explore Project Button-->
+                        <a href="#" data-aos="fade-in" id="portfoliozbutton" class="contact-button"
+                            onclick="audio.play();">
+                            <div id="portfoliozbutton">
+                                <span class="bg"></span>
+                                <span class="base"></span>
+                                <span class="text">
+                                    Explore More!
+                                </span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--AOS animate on scroll-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 50,
+            mirror: true,
+            easing: 'ease-in-out',
+            anchorPlacement: 'top-bottom',
+        });
+    </script>
+
+    <script>
+        function off11() {
+            document.getElementById("blur11").style.display = "none";
+        }
+
+
+        function on11() {
+            document.getElementById("blur11").style.display = "block";
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

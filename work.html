@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ad704e94dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="work.css">
+    <link rel="stylesheet" href="loader.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <!--Loader for portfolio-->
+    <div id="loaderz-wrapper" class="loaderz-wrapper">
+        <div class="looktext">What are you looking for?</div>
+
+        <div class="buttonwrapper">
+
+            <!--My Portfolio Button-->
+            <a href="./workz.html" data-aos="fade-in" id="portfoliozbutton" class="contact-button"
+                onclick="audio.play();">
+                <div id="portfoliozbutton">
+                    <span class="bg"></span>
+                    <span class="base"></span>
+                    <span class="text">
+                        Graphic Designer!
+                    </span>
+                </div>
+            </a>
+
+            <!--My Portfolio Button-->
+            <a href="./workz.html" data-aos="fade-in" id="portfoliozbutton" class="contact-button"
+                onclick="audio.play();">
+                <div id="portfoliozbutton">
+                    <span class="bg"></span>
+                    <span class="base"></span>
+                    <span class="text">
+                        UI and UX Designer!
+                    </span>
+                </div>
+            </a>
+
+            <!--My Portfolio Button-->
+            <a href="./workz.html" data-aos="fade-in" id="portfoliozbutton" class="contact-button"
+                onclick="audio.play();">
+                <div id="portfoliozbutton">
+                    <span class="bg"></span>
+                    <span class="base"></span>
+                    <span class="text">
+                        Game Designer!
+                    </span>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+
+    <script>
+
+        var loaderz = document.getElementById("loaderz-wrapper")
+
+        window.addEventListener("load", function () {
+            loaderz.style.display = "flex";
+        });
+    </script>
+
+    <script>
+
+        var loaderz = document.getElementById("loaderz-wrapper")
+
+        //see more button load
+        $("#portfoliozbutton").click(function () {
+            loaderz.style.display = "none"
+
+            setTimeout(() => {
+
+                loader.style.display = "none"
+
+            }, 2000)
+
+        });
+    </script>
+
+
+
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+
+</body>
+
+</html>
