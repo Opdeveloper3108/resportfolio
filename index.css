@@ -1,0 +1,3000 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+/* media section for I phone SE (375 px) */
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin-left: 1px;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+/* header {
+    z-index: 9999999999999999999999999999999;
+} */
+
+body {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    background: #181818;
+    overflow-x: hidden;
+
+}
+
+
+.message {
+    color: #fff;
+    font-family: Helvetica;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+
+header {
+    width: 100%;
+    height: 5vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin-top: 20px;
+    z-index: 10;
+    overflow-x: hidden;
+
+}
+
+
+#sound {
+    padding-left: 10px;
+    background-color: #181818;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    z-index: 99999999999999999999;
+    width: 150px;
+    margin-left: 220px;
+    position: absolute;
+}
+
+.sound-cloud {
+    font-size: 1.2rem;
+    margin: 7px;
+    color: #Ee283b;
+}
+
+.on-off {
+    cursor: url(./Sound/Polygon\ 1.svg), auto;
+    margin-left: 5px;
+}
+
+#off {
+    color: #Ee283b;
+}
+
+
+#on {
+    display: none;
+    color: #00bfff;
+}
+
+.btns-container .fas {
+    font-size: 2rem;
+    margin-left: -360px;
+    padding: 10px;
+    /* background-color: #181818; */
+    color: #fff;
+    cursor: url(./Sound/Polygon\ 1.svg), auto;
+    display: flex;
+    /* position: absolute; */
+}
+
+.livecount {
+    background-color: #181818;
+    width: 80px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-top: 6px;
+    border-radius: 4px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif ;
+    margin-left: 125px;
+}
+
+.fa-solid fa-eye {
+    padding: 2px;
+}
+
+#counter {
+    padding-left: 5px;
+}
+
+
+.btns-container .fas:nth-child(2) {
+    display: none;
+    /* position: absolute; */
+
+}
+
+/* aside section starts here */
+.aside {
+    width: 100%;
+    height: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #121212;
+    z-index: 10;
+    display: none;
+}
+
+.aside-wrapper .fas {
+    font-size: 2.2rem;
+    padding: 20px;
+    width: 10px;
+    margin-right: 340px;
+    cursor: url(./Sound/Polygon\ 1.svg), auto;
+    display: flex;
+}
+
+.show-nav {
+    height: 100%;
+    overflow: visible;
+}
+
+.aside-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #121212;
+
+
+}
+
+.logo-section {
+    min-height: 42vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+}
+
+.logo {
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+}
+
+.logo img {
+    height: 140px;
+    width: 140px;
+}
+
+.logo span {
+
+    margin-top: 10px;
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+.logo-section>span {
+
+    margin-top: 25px;
+    font-size: 15px;
+    font-size: 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+}
+
+
+/* nav section starts here */
+
+.nav-links a {
+    display: block;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: none;
+    color: #908096;
+}
+
+.nav-links a:hover {
+    color: #00bfff;
+}
+
+.nav-links a::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    background-color: #2d2d2e;
+}
+
+
+/* social icons */
+.social-icons {
+    list-style: none;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.social-icons li {
+    width: 30px;
+    font-size: 1rem;
+}
+
+.social-icons li a {
+    text-decoration: none;
+    color: #909096;
+}
+
+.social-icons li a:hover {
+    color: #00bfff;
+}
+
+
+/* Nav Bar ends here */
+#section-home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    position: relative;
+    margin-top: -10px;
+
+
+}
+
+.text-zone h1 {
+    font-size: 3.2rem;
+    line-height: 50px;
+    letter-spacing: -3px;
+}
+
+.text-zone h1::before {
+    content: '<h1>';
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -50px;
+    font-size: 1rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.text-zone h1::after {
+    content: '</h1>';
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.text-zone img {
+    width: 72px;
+    height: auto;
+}
+
+.text-zone p::before {
+    content: '<p>';
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -35px;
+    font-size: 1rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.text-zone p::after {
+    content: '</p>';
+    position: absolute;
+    margin-left: -110px;
+    margin-top: 17px;
+    font-size: 1rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.text-zone .gray-text {
+    margin-top: 30px;
+    color: #a2a2a3;
+    letter-spacing: 3px;
+    font-size: 14px;
+    position: relative;
+}
+
+
+/* contact button */
+.contact-button {
+    margin-top: 34px;
+    text-decoration: none;
+    width: 100%;
+    max-width: 130px;
+    height: 30px;
+    display: block;
+    line-height: 40px;
+    letter-spacing: 3px;
+    position: relative;
+    text-align: center;
+    color: #00bfff;
+    cursor: url(./Sound/Polygon\ 1.svg), auto;
+}
+
+.contact-button div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.contact-button span.bg {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: -5px;
+    top: 0;
+    transition: all .3s ease-in-out;
+    background-color: #00bfff;
+    transform: skewX(-19deg);
+
+}
+
+.contact-button:hover span.bg {
+    width: 110%;
+}
+
+.contact-button span.base {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border: 1px solid #00bfff;
+    box-sizing: border-box;
+}
+
+.contact-button span.text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -5px;
+    left: -2px;
+    font-size: 10px;
+
+}
+
+.contact-button:hover span.text {
+    color: #1d1d1d;
+}
+
+
+
+
+
+/* resume button */
+.resume-button {
+    margin-top: -30px;
+    margin-left: 150px;
+    text-decoration: none;
+    width: 100%;
+    max-width: 150px;
+    height: 30px;
+    display: block;
+    line-height: 40px;
+    letter-spacing: 3px;
+    position: relative;
+    text-align: center;
+    color: #00bfff;
+    cursor: url(./Sound/Polygon\ 1.svg), auto;
+}
+
+.resume-button div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.resume-button span.bg {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: -5px;
+    top: 0;
+    transition: all .3s ease-in-out;
+    background-color: #00bfff;
+    transform: skewX(-19deg);
+
+}
+
+.resume-button:hover span.bg {
+    width: 110%;
+}
+
+.resume-button span.base {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border: 1px solid #00bfff;
+    box-sizing: border-box;
+}
+
+.resume-button span.text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -5px;
+    left: -2px;
+    font-size: 10px;
+
+}
+
+.resume-button:hover span.text {
+    color: #1d1d1d;
+}
+
+
+
+
+
+
+.myVector {
+    position: absolute;
+    margin-top: 10px;
+    z-index: -2;
+    display: none;
+}
+
+.myVector img {
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 110%;
+    width: 110%;
+    display: none;
+}
+
+.doodles {
+    display: none;
+}
+
+
+/* scroll down starts here */
+.scroll-down {
+    position: absolute;
+    right: -30px;
+    bottom: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+    display: block;
+    font-size: 14px;
+}
+
+.scroll-down--left {
+    left: -30px;
+    right: auto;
+}
+
+.scroll-down span {
+    display: inline-block;
+    animation: scroll .5s linear infinite alternate-reverse;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(-7px);
+    }
+
+    100% {
+        transform: translateX(7px);
+    }
+}
+
+.scroll-down .fas {
+    transform: rotate(270deg);
+    margin-left: 10px;
+}
+
+.canvas1 {
+    position: absolute;
+}
+
+
+/* part 2 of the website starts here */
+
+#section-work {
+    padding: 5rem 1rem 5rem 1.5rem;
+    position: relative;
+    margin-top: 50px;
+}
+
+.text-zone-3 p::before {
+    content: '<work>';
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -75px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.text-zone-4 p::before {
+    content: '<header>';
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -45px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+#header {
+    font-size: 2rem;
+    color: #00bfff;
+    margin-bottom: 30px;
+}
+
+.text-zone-4 p::after {
+    content: '</header>';
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 55px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.text-zone-2 p {
+    width: 350px;
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+.text-zone-2 p a {
+    color: #00bfff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.fake-big-2 {
+    font-size: 12rem;
+    font-weight: 700;
+    position: absolute;
+    color: #29292a;
+    left: 10px;
+    bottom: -70px;
+    letter-spacing: -10px;
+    z-index: -999;
+    /* overflow-x: hidden; */
+}
+
+/*workwall starts here */
+
+.fake-magicwall {
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    /* overflow-x: hidden; */
+}
+
+.fake-magicwall ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    flex-wrap: wrap;
+}
+
+.fake-magicwall ul li {
+    width: 125px;
+    height: 124px;
+    position: relative;
+    overflow: hidden;
+    display: list-item;
+}
+
+.fake-magicwall .magic-wall_item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.fake-magicwall img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video {
+    width: 178px;
+    height: 208px;
+    object-fit: cover;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.fake-magicwall ul li:hover .magic-wall_item {
+    transform: scale(1.14);
+    -ms-transform: scale(1.14);
+    -webkit-transform: scale(1.14);
+
+
+}
+
+.fake-magicwall ul li a.colorbox {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 150ms ease-out;
+    -o-transition: all 150ms ease-out;
+    -webkit-transition: all 150ms ease-out;
+    transform: scale(0.2);
+}
+
+.fake-magicwall ul li:hover a.colorbox {
+    transform: scale(0.6);
+    opacity: 1;
+}
+
+
+.trans {
+    display: flex;
+    /* overflow-x: hidden; */
+    margin-left: 0rem;
+    animation: slideanim 20s 1s ease-in-out infinite
+}
+
+.trans2 {
+    display: flex;
+    /* overflow-x: hidden; */
+    padding-left: -100rem;
+    animation: slideanim2 20s 1s ease-in-out infinite;
+
+}
+
+
+.trans3 {
+    display: flex;
+    /* overflow-x: hidden; */
+    padding-left: -100rem;
+    animation: slideanim2 20s 1s ease-in-out infinite;
+
+}
+
+
+.trans4 {
+    display: flex;
+    /* overflow-x: hidden; */
+    padding-left: -100rem;
+    animation: slideanim2 20s 1s ease-in-out infinite;
+
+}
+
+.text-zone-3 p::after {
+    content: '</work>';
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 790px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+/* magical wall ends here */
+
+
+/* scroll down 2 starts here */
+.scroll-down-2 {
+    position: absolute;
+    right: -30px;
+    bottom: -85.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+    display: block;
+    font-size: 14px;
+    display: none;
+}
+
+.scroll-down--left-2 {
+    left: -30px;
+    right: auto;
+    bottom: -70.3rem;
+    display: none;
+}
+
+.scroll-down-2 span {
+    display: inline-block;
+    animation: scroll .5s linear infinite alternate-reverse;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(-7px);
+    }
+
+    100% {
+        transform: translateX(7px);
+    }
+}
+
+.scroll-down-2 .fas {
+    transform: rotate(270deg);
+    margin-left: 10px;
+}
+
+
+
+
+/* about me section starts here */
+
+.text-zone-5 p::before {
+    content: '<about>';
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -50px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.text-zone-6 p::before {
+    content: '<header>';
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -20px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+#section-about {
+    padding-left: 1.5rem;
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.text-zone-6 p::after {
+    content: '</header>';
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 110px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.text-zone3 p {
+    margin-bottom: 15px;
+    line-height: 1.5rem;
+    margin-right: 1rem;
+}
+
+.tech {
+    text-decoration: none;
+    color: #00bfff;
+
+}
+
+.text-zone-5 p::after {
+    content: '</about>';
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 470px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.text-zone-9 p::before {
+    content: '<html>';
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 0px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.text-zone-9 p::after {
+    content: '<body>';
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 0px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+#myCanvas {
+    margin-left: -25px;
+    cursor: url(./Sound/Polygon\ 1.svg), auto;
+}
+
+/* game starts here */
+
+.section-blog {
+    width: 85%;
+    margin: 100px auto 0;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.section-blog .fake-big-2 {
+    font-size: 12rem;
+    font-weight: bolder;
+    position: absolute;
+    top: -165px;
+    margin-left: -35px;
+}
+
+.blog-articles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.post-articles {
+    width: 100%;
+    height: 470px;
+    background-color: #1d1d1d;
+    padding: 25px;
+    color: #909096;
+    box-shadow: 0 0 5px 5px #101010;
+    margin-bottom: 30px;
+}
+
+.post-date {
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #00bfff;
+    text-align: center;
+}
+
+.cardimgzzzz video {
+    width: 290px;
+    height: auto;
+    padding: 0px;
+    margin-top: 10px;
+
+}
+
+.cardimgzzzz img {
+    width: 100%;
+    height: 163px;
+    padding: 0px;
+    margin-top: 10px;
+
+}
+
+.Cardintro a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.blog-post-title h5 a:hover {
+    color: #Ee283b;
+}
+
+.blog-post-content {
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.buttoncontainer {
+    display: flex;
+    margin-top: 15px;
+    height: 50px;
+}
+
+.projbutton {
+    width: 45px;
+    height: 45px;
+    margin-left: 45px;
+    border: 2px solid #00bfff;
+    background-color: #1d1d1d;
+    color: #00bfff;
+    border-radius: 50px;
+}
+
+.projbutton:hover {
+    background: linear-gradient(217deg,
+            #284cee,
+            rgba(0, 204, 255, 0.5)), linear-gradient(127deg, #00bfff, #Ee283b),
+        linear-gradient(336deg, #00bfff, #Ee283b);
+    color: #181818;
+    box-shadow: 0 0 90px 10px #0099ff;
+}
+
+.playbutton {
+    width: 45px;
+    height: 45px;
+    margin-left: 75px;
+    border: 2px solid #00bfff;
+    background-color: #1d1d1d;
+    color: #00bfff;
+    border-radius: 50px;
+}
+
+.playbutton:hover {
+    background: linear-gradient(217deg,
+            #284cee,
+            rgba(0, 204, 255, 0.5)), linear-gradient(127deg, #00bfff, #Ee283b),
+        linear-gradient(336deg, #00bfff, #Ee283b);
+    color: #181818;
+    box-shadow: 0 0 90px 10px #0099ff;
+}
+
+.vidbutton {
+    width: 45px;
+    height: 45px;
+    margin-left: 30px;
+    border: 2px solid #00bfff;
+    background-color: #1d1d1d;
+    color: #00bfff;
+    border-radius: 50px;
+}
+
+.vidbutton:hover {
+    background: linear-gradient(217deg,
+            #284cee,
+            rgba(0, 204, 255, 0.5)), linear-gradient(127deg, #00bfff, #Ee283b),
+        linear-gradient(336deg, #00bfff, #Ee283b);
+    color: #181818;
+    box-shadow: 0 0 90px 10px #0099ff;
+}
+
+/* scroll down 2 starts here */
+.scroll-down-3 {
+    position: absolute;
+    right: -30px;
+    bottom: -65.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+    display: block;
+    font-size: 14px;
+}
+
+.scroll-down--left-3 {
+    left: -30px;
+    right: auto;
+    bottom: -65.3rem;
+}
+
+.scroll-down-3 span {
+    display: inline-block;
+    animation: scroll .5s linear infinite alternate-reverse;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(-7px);
+    }
+
+    100% {
+        transform: translateX(7px);
+    }
+}
+
+.scroll-down-3 .fas {
+    transform: rotate(270deg);
+    margin-left: 10px;
+}
+
+
+
+/* contact starts here */
+
+.text-zone-7 p::before {
+    content: '<form>';
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -60px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.text-zone-8 p::before {
+    content: '<header>';
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -30px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.contact-heading {
+    margin-bottom: 30px;
+}
+
+.contact-heading p {
+    line-height: 1.5rem;
+}
+
+.text-zone-8 p::after {
+    content: '</header>';
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 45px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.contact-section {
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+
+}
+
+.form-input-group {
+    width: 100%;
+    position: relative;
+}
+
+.form-input-group input,
+textarea {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 0.957rem;
+    box-shadow: 0 0 0px 1000px #2c2c2c inset;
+    color: #8a8484;
+
+}
+
+.form-input-group textarea {
+    height: 25vh;
+    padding: 10px 20px;
+}
+
+.text-zone-7 p::after {
+    content: '</form>';
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 510px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.submit-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: 205px;
+    display: block;
+    font-size: 1rem;
+    cursor: url(./Sound/Polygon\ 1.svg), auto;
+    color: #00bfff;
+}
+
+.form-input-group input+span::after,
+.form-input-group textarea+span::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    background: #00bfff;
+    bottom: 5px;
+    left: 0;
+    transition: ALL 0.3s linear;
+
+}
+
+.form-input-group input:focus+span::after,
+.form-input-group textarea:focus+span::after {
+    width: 100%;
+}
+
+.error input,
+.error textarea {
+    border-bottom: 2px solid #Ee283b;
+    transition: all 0.2s linear;
+}
+
+.success input,
+.success textarea {
+    border-bottom: 2px solid #00bfff;
+    transition: all 0.2s linear;
+}
+
+.message {
+    position: absolute;
+    top: 245px;
+    right: 0;
+    height: 50%;
+    transition: all .3s ease-in-out;
+    transform: translate(100%, 50%);
+    transition: all .3s linear;
+    display: flex;
+    flex-direction: column-reverse;
+    z-index: 0;
+}
+
+.message-content {
+    padding: 15px;
+    background-color: #Ee283b;
+    color: #fff;
+    opacity: 1;
+    transition: opacity 550ms ease-in-out;
+    margin-bottom: 5px;
+}
+
+.message-content.hide {
+    opacity: 0;
+}
+
+.text-zone-10 p::before {
+    content: '</html>';
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 85px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.text-zone-10 p::after {
+    content: '</body>';
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 25px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.google-map {
+    width: 100%;
+    position: relative;
+}
+
+.google-map iframe {
+    width: 100%;
+    height: 60vh;
+    margin-top: 50px;
+    filter: invert(1);
+}
+
+.map-content {
+    background-color: #181818;
+    color: #f3f3f3;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    padding: 20px;
+    backdrop-filter: blur(70%);
+
+}
+
+.map-content span {
+    font-size: 13px;
+    line-height: 1rem;
+}
+
+.mail {
+    display: flex;
+    margin-top: 30px;
+}
+
+.symbol {
+    color: #00bfff;
+    overflow-x: hidden;
+}
+
+.text {
+    padding-left: 10px;
+}
+
+.fake-big {
+    font-size: 12rem;
+    font-weight: 700;
+    position: absolute;
+    color: #232324;
+    left: 300px;
+    bottom: 460px;
+    letter-spacing: -10px;
+    z-index: -999;
+
+}
+
+.Titleeee {
+    padding-left: 20px;
+    font-weight: bold;
+    color: #0bbfff;
+    position: absolute;
+    margin-top: 20px;
+    font-size: 30px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media section for pc screens (950 px) */
+
+@media screen and (min-width: 950px) {
+
+
+    html {
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+        height: 100vh;
+        width: 100vw;
+        margin-left: 1px;
+    }
+
+    header {
+        justify-content: flex-end;
+        position: fixed;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 95%;
+        height: 10vh;
+        z-index: 99999;
+    }
+
+    ::-webkit-scrollbar {
+        width: 1.2em;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #232324;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(#Ee283b, #0bbfff);
+        border: 2px solid #232324;
+        border-radius: 50px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(#Ee283b, #0bbfff);
+        border: 2px solid #232324;
+        border-radius: 50px;
+    }
+
+    body {
+        background-color: #181818;
+        cursor: url('./Sound/Polygon 1.svg'), auto;
+        /* overflow-x: hidden; */
+        font-family: sans-serif;
+        color: rgb(255, 255, 255);
+        background: #181818;
+        overflow-y: hidden;
+
+
+
+    }
+
+    .cursor {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid #Ee283b;
+        left: 0;
+        top: 0;
+        z-index: 91000000000000000000000000000;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+        transition: width 500ms, height 500ms;
+    }
+
+    .cursor.large {
+        width: 80px;
+        height: 80px;
+    }
+
+    .canvas1 {
+        position: absolute;
+        height: auto;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .text-zone-9 p::before {
+        content: '<html>';
+        position: absolute;
+        margin-left: -620px;
+        margin-top: -1970px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    .text-zone-9 p::after {
+        content: '<body>';
+        position: absolute;
+        margin-left: -600px;
+        margin-top: -1940px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    .btns-container {
+        display: none;
+    }
+
+    .livecount {
+        background-color: #181818;
+        width: 80px;
+        padding: 9px;
+        padding-left: 15px;
+        padding-top: 9px;
+        border-radius: 4px;
+        display: column;
+        font-family: Arial, Helvetica, sans-serif ;
+        margin-right: 170px;
+        z-index: 999999999999999999;
+    }
+    
+    .fa-solid fa-eye {
+        padding: 2px;
+    }
+    
+    #counter {
+        padding-left: 5px;
+    }
+    
+
+    .aside {
+        width: 15.3%;
+        height: 100%;
+        z-index: 10;
+        display: flex;
+    }
+
+    .aside-wrapper {
+        height: 90%;
+        width: 19vw
+    }
+
+    .aside-wrapper .fas {
+        display: none;
+    }
+
+    .logo-section {
+        height: 42vh;
+    }
+
+    .social-icons {
+        margin-bottom: 0;
+    }
+
+    .social-icons li {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    /* home section begins */
+
+    #section-home {
+        padding-left: 20rem;
+        position: inherit;
+        margin-top: 0px;
+    }
+
+    .text-zone h1 {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        z-index: 150;
+    }
+
+    /* all letters hover */
+    .h {
+        animation: jellyload 0.6s ease-in-out 2s;
+        display: inline-block;
+    }
+
+    .H {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+    }
+
+    .H:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+    .i {
+        animation: jellyload 0.6s ease-in-out 2.2s;
+        display: inline-block;
+    }
+
+    .I {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+    }
+
+    .I:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+    .i2 {
+        animation: jellyload 0.6s ease-in-out 2.4s;
+        display: inline-block;
+    }
+
+    .I2 {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+    }
+
+    .I2:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+    .cm {
+        animation: jellyload 0.6s ease-in-out 2.6s;
+        display: inline-block;
+    }
+
+    .M {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+        margin-left: 0px;
+    }
+
+    .M:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+    .text-zone p::after {
+        content: '</p>';
+        position: absolute;
+        margin-left: -390px;
+        margin-top: 15px;
+        font-size: 1rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+
+
+    .m2 {
+        animation: jellyload 0.6s ease-in-out 3s;
+        display: inline-block;
+    }
+
+    .M2 {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+        margin-left: 0px;
+    }
+
+    .M2:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+
+
+    /*Game*/
+
+
+    .g {
+        animation: jellyload 0.6s ease-in-out 3.2s;
+        display: inline-block;
+    }
+
+    .G {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+    }
+
+    .G:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+    .a {
+        animation: jellyload 0.6s ease-in-out 3.4s;
+        display: inline-block;
+    }
+
+    .A {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+
+    }
+
+    .A:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+    .m3 {
+        animation: jellyload 0.6s ease-in-out 3.6s;
+        display: inline-block;
+    }
+
+    .M3 {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+    }
+
+    .M3:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+    .e {
+        animation: jellyload 0.6s ease-in-out 3.8s;
+        display: inline-block;
+    }
+
+    .E {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+
+    }
+
+    .E:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+
+
+    /*Developer*/
+
+    .d {
+        animation: jellyload 0.6s ease-in-out 4s;
+        display: inline-block;
+    }
+
+    .D {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+    }
+
+    .D:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+    .e2 {
+        animation: jellyload 0.6s ease-in-out 4.2s;
+        display: inline-block;
+    }
+
+    .E2 {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+
+    }
+
+    .E2:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+
+    .v {
+        animation: jellyload 0.6s ease-in-out 4.4s;
+        display: inline-block;
+    }
+
+    .V {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+    }
+
+    .V:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+    .e3 {
+        animation: jellyload 0.6s ease-in-out 4.6s;
+        display: inline-block;
+    }
+
+    .E3 {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+
+    }
+
+    .E3:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+
+    .l {
+        animation: jellyload 0.6s ease-in-out 4.8s;
+        display: inline-block;
+    }
+
+    .L {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+    }
+
+    .L:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+
+    .o {
+        animation: jellyload 0.6s ease-in-out 5s;
+        display: inline-block;
+    }
+
+    .O {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+
+    }
+
+    .O:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+
+    .p {
+        animation: jellyload 0.6s ease-in-out 5.2s;
+        display: inline-block;
+    }
+
+    .P {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+    }
+
+    .P:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+
+    .e4 {
+        animation: jellyload 0.6s ease-in-out 5.4s;
+        display: inline-block;
+    }
+
+
+    .E4 {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+
+    }
+
+    .E4:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+        z-index: 150;
+    }
+
+    .r {
+        animation: jellyload 0.6s ease-in-out 5.6s;
+        display: inline-block;
+    }
+
+    .R {
+        font-size: 6.3rem;
+        line-height: 85px;
+        letter-spacing: -6px;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+        
+    }
+
+    .R:hover {
+        color: #00bfff;
+        animation: animate 0.6s;
+        display: inline-block;
+    }
+
+    /* contact button */
+    .contact-button {
+        margin-top: 40px;
+        text-decoration: none;
+        width: 100%;
+        max-width: 200px;
+        height: 40px;
+        display: block;
+        line-height: 40px;
+        letter-spacing: 3px;
+        position: relative;
+        text-align: center;
+        color: #00bfff;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+    }
+
+    .contact-button div {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: all .3s ease-in-out;
+    }
+
+    .contact-button span.bg {
+        position: absolute;
+        width: 0%;
+        height: 100%;
+        left: -5px;
+        top: 0;
+        transition: all .3s ease-in-out;
+        background-color: #00bfff;
+        transform: skewX(-19deg);
+
+    }
+
+    .contact-button:hover span.bg {
+        width: 110%;
+    }
+
+    .contact-button span.base {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        border: 1px solid #00bfff;
+        box-sizing: border-box;
+    }
+
+    .contact-button span.text {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        font-size: 15px;
+    }
+
+    .contact-button:hover span.text {
+        color: #1d1d1d;
+    }
+
+
+
+
+
+
+
+    /* resume button */
+    .resume-button {
+        margin-top: -40.5px;
+        margin-left: 230px;
+        text-decoration: none;
+        width: 100%;
+        max-width: 200px;
+        height: 40px;
+        display: block;
+        line-height: 40px;
+        letter-spacing: 3px;
+        position: absolute;
+        text-align: center;
+        color: #00bfff;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+    }
+
+    .resume-button div {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: all .3s ease-in-out;
+    }
+
+    .resume-button span.bg {
+        position: absolute;
+        width: 0%;
+        height: 100%;
+        left: -5px;
+        top: 0;
+        transition: all .3s ease-in-out;
+        background-color: #00bfff;
+        transform: skewX(-19deg);
+
+    }
+
+    .resume-button:hover span.bg {
+        width: 110%;
+    }
+
+    .resume-button span.base {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        border: 1px solid #00bfff;
+        box-sizing: border-box;
+    }
+
+    .resume-button span.text {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        font-size: 15px;
+    }
+
+    .resume-button:hover span.text {
+        color: #1d1d1d;
+    }
+
+    /* load appear */
+    @keyframes appear {
+        0% {
+            opacity: 1;
+            transform: rotate(-270deg);
+        }
+
+        100% {
+            opacity: 1;
+            transform: rotate(0deg);
+        }
+    }
+
+
+    /* jelly hover */
+    @keyframes animate {
+
+
+        25% {
+
+            transform: scale(0.8, 1.3);
+        }
+
+        50% {
+
+            transform: scale(1.1, 0.8);
+        }
+
+        75% {
+
+            transform: scale(0.7, 1.2);
+        }
+
+
+    }
+
+    /* jelly load*/
+    @keyframes jellyload {
+
+
+        25% {
+
+            transform: scale(0.8, 1.3);
+        }
+
+        50% {
+
+            transform: scale(1.1, 0.8);
+        }
+
+        75% {
+
+            transform: scale(0.7, 1.2);
+        }
+
+
+    }
+
+    .myVector {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 630px;
+        z-index: 10;
+        display: flex;
+    }
+
+    .myVector img {
+
+        height: 90%;
+        margin-left: none;
+        width: 90%;
+        display: flex;
+    }
+
+
+    .doodles {
+        display: none;
+        position: absolute;
+        margin-left: 250px;
+        z-index: -1500000;
+        margin-top: 40px;
+    }
+    .doodles img {
+        height: 105%;
+        width: 105%;
+    }
+
+
+
+    .text-zone h1::before {
+        content: '<h1>';
+        position: absolute;
+        margin-left: -10px;
+        margin-top: -60px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    .text-zone h1::after {
+        content: '</h1>';
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    .text-zone img {
+        width: 130px;
+        animation: appear 0.6s ease-in-out 2.8s;
+    }
+
+    .text-zone .gray-text {
+        font-size: 1rem;
+        margin-top: 30px;
+    }
+
+    .text-zone p::before {
+        content: '<p>';
+        position: absolute;
+        margin-left: -10px;
+        margin-top: -35px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    .text-zone p::after {
+        content: '</p>';
+        position: absolute;
+        margin-left: -430px;
+        margin-top: 15px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    .scroll-down {
+        right: -25px;
+        bottom: -7.6rem;
+    }
+
+    .scroll-down--left {
+        left: 200px;
+        right: auto;
+    }
+
+
+    /*home section ends here */
+
+    /* Portfolio section starts here for bigger screens */
+
+    .text-zone-3 p::before {
+        content: '<work>';
+        position: absolute;
+        margin-left: -20px;
+        margin-top: -75px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    .text-zone-4 p::before {
+        content: '<header>';
+        position: absolute;
+        margin-left: 0px;
+        margin-top: -45px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    #section-work {
+        width: 78%;
+        margin: 0 30px 0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: 280px;
+        margin-top: 200px;
+    }
+
+    .text-zone-2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #header {
+        font-size: 2.5rem;
+    }
+
+    .text-zone-4 p::after {
+        content: '</header>';
+        position: absolute;
+        margin-left: 360px;
+        margin-top: 15px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    .text-zone-2 p {
+        width: 700px;
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
+
+    .text-zone-2 p a {
+        color: #00bfff;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .fake-big-2 {
+        font-size: 25rem;
+        font-weight: 700;
+        left: 560px;
+        top: 0;
+
+    }
+
+    .fake-magicwall {
+        margin-left: -18.46rem;
+    }
+
+    .trans {
+        display: flex;
+        /* overflow-x: hidden; */
+        margin-left: -48.5rem;
+        animation: slideanim 20s 1s ease-in-out infinite
+    }
+
+    .trans2 {
+        display: flex;
+        /* overflow-x: hidden; */
+        padding-left: 32.5rem;
+        animation: slideanim2 20s 1s ease-in-out infinite
+    }
+
+    .trans3 {
+        display: flex;
+        /* overflow-x: hidden; */
+        padding-left: 32.5rem;
+        animation: slideanim2 20s 1s ease-in-out infinite;
+        display: none;
+
+    }
+
+    .trans4 {
+        display: flex;
+        /* overflow-x: hidden; */
+        padding-left: 32.5rem;
+        animation: slideanim2 20s 1s ease-in-out infinite;
+        display: none;
+
+    }
+
+    @keyframes slideanim {
+
+        0% {
+            padding-left: 0px;
+        }
+
+        5% {
+            padding-left: 259px;
+        }
+
+        10% {
+            padding-left: 259px;
+        }
+
+        15% {
+            padding-left: 518px;
+        }
+
+        20% {
+            padding-left: 518px;
+        }
+
+        25% {
+            padding-left: 518px;
+        }
+
+        30% {
+            padding-left: 777px;
+        }
+
+        35% {
+            padding-left: 777px;
+        }
+
+        40% {
+            padding-left: 1036px;
+        }
+
+        45% {
+            padding-left: 1036px;
+        }
+
+        50% {
+            padding-left: 1259px;
+        }
+
+        55% {
+            padding-left: 1259px;
+        }
+
+        60% {
+            padding-left: 1036px;
+        }
+
+        65% {
+            padding-left: 1036px;
+        }
+
+        70% {
+            padding-left: 777px;
+        }
+
+        75% {
+            padding-left: 777px;
+        }
+
+        80% {
+            padding-left: 518px;
+        }
+
+        85% {
+            padding-left: 518px;
+        }
+
+        90% {
+            padding-left: 259px;
+        }
+
+        95% {
+            padding-left: 259px;
+        }
+
+        100% {
+            padding-left: 0px;
+        }
+
+    }
+
+    @keyframes slideanim2 {
+
+        0% {
+            margin-left: 0px;
+        }
+
+        10% {
+            margin-left: -259px;
+        }
+
+        15% {
+            margin-left: -259px;
+        }
+
+        20% {
+            margin-left: -518px;
+        }
+
+        25% {
+            margin-left: -518px;
+        }
+
+        30% {
+            margin-left: -777px;
+        }
+
+        35% {
+            margin-left: -777px;
+        }
+
+        40% {
+            margin-left: -1036px;
+        }
+
+        45% {
+            margin-left: -1036px;
+        }
+
+        50% {
+            margin-left: -1259px;
+        }
+
+        55% {
+            margin-left: -1259px;
+        }
+
+        60% {
+            margin-left: -1036px;
+        }
+
+        65% {
+            margin-left: -1036px;
+        }
+
+        70% {
+            margin-left: -777px;
+        }
+
+        75% {
+            margin-left: -777px;
+        }
+
+        80% {
+            margin-left: -518px;
+        }
+
+        85% {
+            margin-left: -518px;
+        }
+
+        90% {
+            margin-left: -259px;
+        }
+
+        95% {
+            margin-left: -259px;
+        }
+
+        100% {
+            margin-left: 0px;
+        }
+
+    }
+
+    .buttoncontainer {
+        display: flex;
+        margin-top: 15px;
+        height: 50px;
+    }
+
+    .projbutton {
+        width: 45px;
+        height: 45px;
+        margin-left: 45px;
+        border: 2px solid #00bfff;
+        background-color: #1d1d1d;
+        color: #00bfff;
+        border-radius: 50px;
+    }
+
+    .projbutton:hover {
+        background: linear-gradient(217deg,
+                #284cee,
+                rgba(0, 204, 255, 0.5)), linear-gradient(127deg, #00bfff, #Ee283b),
+            linear-gradient(336deg, #00bfff, #Ee283b);
+        color: #181818;
+        box-shadow: 0 0 90px 10px #0099ff;
+    }
+
+    .playbutton {
+        width: 45px;
+        height: 45px;
+        margin-left: 85px;
+        border: 2px solid #00bfff;
+        background-color: #1d1d1d;
+        color: #00bfff;
+        border-radius: 50px;
+    }
+
+    .playbutton:hover {
+        background: linear-gradient(217deg,
+                #284cee,
+                rgba(0, 204, 255, 0.5)), linear-gradient(127deg, #00bfff, #Ee283b),
+            linear-gradient(336deg, #00bfff, #Ee283b);
+        color: #181818;
+        box-shadow: 0 0 90px 10px #0099ff;
+    }
+
+    .vidbutton {
+        width: 45px;
+        height: 45px;
+        margin-left: 30px;
+        border: 2px solid #00bfff;
+        background-color: #1d1d1d;
+        color: #00bfff;
+        border-radius: 50px;
+    }
+
+    .vidbutton:hover {
+        background: linear-gradient(217deg,
+                #284cee,
+                rgba(0, 204, 255, 0.5)), linear-gradient(127deg, #00bfff, #Ee283b),
+            linear-gradient(336deg, #00bfff, #Ee283b);
+        color: #181818;
+        box-shadow: 0 0 90px 10px #0099ff;
+    }
+
+    .fake-magicwall {
+        background-color: rgba(0, 0, 0, 1);
+        width: 2700px;
+        overflow-x: visible;
+    }
+
+
+    .fake-magicwall ul {
+        /* width: 2700px; */
+        width: 100%;
+        overflow-x: visible;
+    }
+
+    .fake-magicwall ul li {
+        width: 259px;
+        height: 246px;
+
+    }
+
+    .fake-magicwall .magic-wall_item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transition: transform 0.5s, opacity 0.5s;
+        transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+    }
+
+    .fake-magicwall img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .video {
+        width: 259px;
+        height: 246px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+
+
+    .fake-magicwall ul li:hover .magic-wall_item {
+        transform: scale(1.14);
+        -ms-transform: scale(1.14);
+        -webkit-transform: scale(1.14);
+
+
+    }
+
+    .fake-magicwall ul li a.colorbox {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: all 150ms ease-out;
+        -o-transition: all 150ms ease-out;
+        -webkit-transition: all 150ms ease-out;
+        transform: scale(0.2);
+    }
+
+    .fake-magicwall ul li:hover a.colorbox {
+        transform: scale(0.6);
+        opacity: 1;
+    }
+
+    .text-zone-3 p::after {
+        content: '</work>';
+        position: absolute;
+        margin-left: -20px;
+        margin-top: 770px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    /* scroll down starts here */
+    .scroll-down-2 {
+        position: absolute;
+        right: -26px;
+        bottom: -75.3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: rotate(90deg);
+        display: block;
+        font-size: 14px;
+    }
+
+    .scroll-down--left-2 {
+        left: 200px;
+        right: auto;
+        bottom: -75.3rem;
+        display: block;
+    }
+
+    .scroll-down-2 span {
+        display: inline-block;
+        animation: scroll .5s linear infinite alternate-reverse;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(-7px);
+        }
+
+        100% {
+            transform: translateX(7px);
+        }
+    }
+
+    .scroll-down-2 .fas {
+        transform: rotate(270deg);
+        margin-left: 10px;
+    }
+
+
+    /* media query about section starts here */
+
+    #section-about {
+        flex-direction: row;
+        padding-left: 19rem;
+    }
+
+    .text-zone-5 p::before {
+        content: '<about>';
+        position: absolute;
+        margin-left: -20px;
+        margin-top: -70px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    .text-zone-6 p::before {
+        content: '<header>';
+        position: absolute;
+        margin-left: 0px;
+        margin-top: -30px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+
+    .text-zone3 #header {
+        width: 500px;
+        font-size: 3rem;
+    }
+
+
+    .text-zone-6 p::after {
+        content: '</header>';
+        position: absolute;
+        margin-left: 350px;
+        margin-top: 120px;
+        font-size: 1.75rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    .text-zone3 p {
+        width: 500px;
+
+    }
+
+    .skills-charts {
+        margin-right: 5%;
+    }
+
+    .text-zone-5 p::after {
+        content: '</about>';
+        position: absolute;
+        margin-left: -20px;
+        margin-top: 460px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    #myCanvas {
+        width: 600px;
+        height: 600px;
+    }
+
+
+    /* media query game section */
+
+    .section-blog {
+        width: 83%;
+        margin: 100px auto 0;
+        margin-top: 200px;
+
+
+    }
+
+    .section-blog .fake-big-2 {
+        font-size: 27rem;
+        top: -310px;
+        margin-left: -500px
+    }
+
+    .blog-articles {
+        width: 90%;
+        margin: 0 0 0 auto;
+        flex-flow: row wrap;
+        margin-left: 180px;
+
+    }
+
+    .post-articles {
+        width: 340px;
+        height: 450px;
+    }
+
+    .blog-post-title h5 a {
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+
+    /* scroll down starts here */
+    .scroll-down-3 {
+        position: absolute;
+        right: -26px;
+        bottom: -169.3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: rotate(90deg);
+        display: block;
+        font-size: 14px;
+    }
+
+    .scroll-down--left-3 {
+        left: 200px;
+        right: auto;
+        bottom: -169.3rem;
+    }
+
+    .scroll-down-3 span {
+        display: inline-block;
+        animation: scroll .5s linear infinite alternate-reverse;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(-7px);
+        }
+
+        100% {
+            transform: translateX(7px);
+        }
+    }
+
+    .scroll-down-3 .fas {
+        transform: rotate(270deg);
+        margin-left: 10px;
+    }
+
+
+    /* contact section */
+
+    .text-zone-7 p::before {
+        content: '<form>';
+        position: absolute;
+        margin-left: -10px;
+        margin-top: -80px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    .text-zone-8 p::before {
+        content: '<header>';
+        position: absolute;
+        margin-left: 0px;
+        margin-top: -40px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    .contact-section {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        grid-column-gap: 2.5rem;
+        margin-left: 10px;
+        margin-top: 200px;
+    }
+
+    .text-zone-8 p::after {
+        content: '</header>';
+        position: absolute;
+        margin-left: 350px;
+        margin-top: 15px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    .contact-form {
+        width: 450px;
+        margin: 0 0 0 auto;
+
+    }
+
+    .message {
+        position: absolute;
+        top: 630px;
+        right: 0;
+        left: 550px;
+        height: 10%;
+        transition: all .3s ease-in-out;
+        transform: translate(100%, 50%);
+        transition: all .3s linear;
+        display: flex;
+        flex-direction: column-reverse;
+        z-index: 1;
+
+    }
+
+    .message-content {
+        padding: 15px;
+        background-color: #Ee283b;
+        color: #fff;
+        opacity: 1;
+        transition: opacity 550ms ease-in-out;
+        margin-bottom: 5px;
+    }
+
+    .message-content.hide {
+        opacity: 0;
+    }
+
+    .form-input-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 0.32rem;
+    }
+
+    .text-zone-7 p::after {
+        content: '</form>';
+        position: absolute;
+        margin-left: -10px;
+        margin-top: 480px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    .text-zone-10 p::before {
+        content: '</html>';
+        position: absolute;
+        margin-left: -50px;
+        margin-top: 155px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+    .text-zone-10 p::after {
+        content: '</body>';
+        position: absolute;
+        margin-left: -30px;
+        margin-top: 100px;
+        font-size: 1.5rem;
+        font-family: 'La Belle Aurore', cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
+
+    .google-map {
+        width: 95%;
+        margin-left: 37px;
+        background-color: #181818;
+    }
+
+    .google-map iframe {
+        width: 100%;
+        height: 100vh;
+        margin-left: 0px;
+        margin-bottom: -5px;
+        filter: invert(0.93);
+        border: none;
+
+    }
+
+
+    .map-content {
+        top: 100px;
+        left: 40px;
+        height: 160px;
+        box-shadow: #000000;
+    }
+
+    .map-content p {
+        font-size: 16px;
+        line-height: 1.5rem;
+    }
+
+    .map-content span {
+        font-size: 16px;
+        line-height: 1.5rem;
+    }
+
+    .mail {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .symbol {
+        color: #00bfff;
+    }
+
+    .text {
+        padding-left: 10px;
+    }
+
+    .fake-big {
+        font-size: 18rem;
+        font-weight: 700;
+        position: absolute;
+        color: #29292a;
+        left: 750px;
+        bottom: 230px;
+        letter-spacing: -10px;
+        z-index: -999;
+
+    }
+
+    .submit-button {
+        background: transparent;
+        border: none;
+        outline: none;
+        float: right;
+        display: block;
+        font-size: 1rem;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+        color: #0bbfff;
+        z-index: 2;
+    }
+
+    .Titleeee {
+        padding-left: 320px;
+        font-weight: bold;
+        color: #0bbfff;
+        position: absolute;
+        margin-top: 160px;
+        font-size: 50px;
+        display: flex;
+    }
+
+
+    /* infinite scrller */
+    #scroller {
+        white-space: nowrap;
+        overflow-x: hidden;
+    }
+
+    #scroller-in-1 {
+        display: inline-block;
+        white-space: nowrap;
+        animation-name: scrollzzzz;
+        animation-duration: 30s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    #scroller h4 {
+        display: inline-block;
+        font-size: 80px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 900;
+        transition: linear 0.2s;
+        margin-right: 30px;
+        -webkit-text-stroke: 2px #0bbfff;
+        color: #181818;
+    }
+
+    #scroller h4:hover {
+        color: #0bbfff;
+    }
+
+
+    @keyframes scrollzzzz {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-100%);
+        }
+    }
+
+}

@@ -1,0 +1,1670 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.cdnfonts.com/css/japanese');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #181818;
+    padding: 0;
+    margin: 0;
+}
+
+
+.blur {
+    height: 100vh;
+    width: 100vw;
+    z-index: 10000000000;
+    background-color: #000000b6;
+    display: none;
+    position: fixed;
+}
+
+
+.closebtnzz {
+    z-index: 10000000000000;
+    margin-left: 90%;
+    margin-top: 5px;
+    color: #00bfff;
+    position: absolute;
+}
+
+
+.blured {
+    height: 100vh;
+    width: 100vw;
+    z-index: 10000000000;
+    background-color: #000000b6;
+    display: none;
+    position: fixed;
+}
+
+/* project content */
+
+.content1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #1E1E1E;
+    margin-left: 0px;
+    overflow-y: scroll;
+}
+
+.content2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #1E1E1E;
+    margin-left: 0px;
+    overflow-y: scroll;
+}
+
+.content1::-webkit-scrollbar {
+    display: none;
+}
+
+/* Designers Desk */
+
+
+.titletxt {
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 0%;
+    font-weight: bold;
+}
+
+.mood {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 0px;
+    margin-bottom: 20px;
+
+}
+
+.cons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.titlecon {
+    font-size: 20px;
+    padding: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mood .text {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    padding: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+.mood img {
+    width: 50%;
+    display: none;
+}
+
+
+
+.colour {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0px;
+
+}
+
+.cons2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.textAir {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.colour .text {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.colour img {
+    width: 100%;
+
+}
+
+.gif {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 70px;
+
+}
+
+.cons4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.titlecon2 {
+    font-size: 20px;
+    padding-left: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gif .text {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    margin-left: 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.gif img {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+
+.var {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.cons3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.var .text {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.picinv {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.var .pic {
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: none;
+}
+
+/*Designer Desk project end*/
+
+
+
+
+/*Data Story*/
+
+.Datatext {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0px;
+    line-height: 20px;
+    padding: 20px;
+}
+
+.datapic {
+    width: 100%;
+    padding: 20px;
+    display: none;
+}
+
+.datapican {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+}
+
+.link {
+    color: #181818;
+    position: fixed;
+    background-color: #0bbfff;
+    width: 100%;
+    margin-right: 50%;
+    height: 30px;
+    text-decoration: none;
+    z-index: 1000000000000;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 360px;
+    text-align: center;
+
+}
+
+
+/*Data Story ends here*/
+
+
+
+
+
+
+/*Pacman project starts*/
+
+
+
+.pacgif {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.cons5 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.titlecon {
+    font-size: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.pacgif .text {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.cons5 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+.gifpicz {
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: auto;
+    border-radius: 0px;
+    display: none;
+
+}
+
+.gifpicz2 {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+    border-radius: 0px;
+    display: flex;
+
+}
+
+.pacvid {
+    padding-left: 0px;
+    margin-top: 50px;
+    display: none;
+}
+
+.pacvidan {
+    padding-left: 0px;
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/*Pacman project end*/
+
+
+
+
+
+
+/* Airtel project */
+
+.titlecon3 {
+    font-size: 20px;
+    padding-left: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.linkAir {
+    color: #181818;
+    position: fixed;
+    background-color: #0bbfff;
+    width: 100%;
+    margin-right: 50%;
+    height: 30px;
+    text-decoration: none;
+    z-index: 1000000000000;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 630px;
+    text-align: center;
+
+}
+
+.endpic {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 20px;
+    display: flex;
+}
+
+
+/* Airtel project end here */
+
+/* Yes Triangle */
+
+.intro img {
+    width: 100%;
+    height: 500px;
+    margin-left: -60px;
+    margin-top: 130px;
+}
+
+/*Yes Triangle end*/
+
+.closebtn {
+    color: #0bbfff;
+    background-color: rgba(0, 0, 0, 0);
+    stroke: #18181800;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 320px;
+    margin-top: 10px;
+}
+
+
+
+
+/* Error page starts here */
+
+.Imagecontainer {
+    width: 100%;
+    height: 100vh;
+    background-color: #181818;
+    padding: 0;
+    margin: 0;
+    display: none;
+    cursor: url(./Sound/Polygon\ 1.svg)
+}
+
+.ImagecontainerAn {
+    width: 100%;
+    height: 100vh;
+    background-color: #181818;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+.ErrImage {
+    width: 100%;
+    height: 100%;
+    display: none;
+    cursor: url(./Sound/Polygon\ 1.svg)
+}
+
+.ErrImageAn {
+    width: 100%;
+    height: 100%;
+    max-width: 375px;
+    display: flex;
+    cursor: url(./Sound/Polygon\ 1.svg)
+}
+
+.TitleErrAn {
+    display: flex;
+    color: #ffffff;
+    position: absolute;
+    margin-left: 21%;
+    margin-top: 10%;
+}
+
+.TitleErrAn span {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.O3An {
+    width: 47px;
+    height: 47px;
+    padding-top: 9px;
+}
+
+.TitlenumberAn {
+    display: flex;
+    color: #ffffff;
+    position: absolute;
+    margin-left: 21%;
+    padding-top: 22.5%;
+}
+
+.TitlenumberAn span {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 115px;
+}
+
+.O2An {
+    width: 90px;
+    height: 90px;
+    padding-top: 20px;
+}
+
+.TitleconAn {
+    color: #989898;
+    font-style: italic;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    width: 90%;
+    margin-top: 135%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+/* contact button */
+.home-button {
+    margin-top: 155%;
+    margin-left: 24%;
+    text-decoration: none;
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    letter-spacing: 3px;
+    position: absolute;
+    text-align: center;
+    color: #00bfff;
+    cursor: url(./Sound/Polygon\ 1.svg), auto;
+}
+
+.home-button div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.home-button span.bg {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: -5px;
+    top: 0;
+    transition: all .3s ease-in-out;
+    background-color: #00bfff;
+    transform: skewX(-19deg);
+
+}
+
+.home-button:hover span.bg {
+    width: 110%;
+}
+
+.home-button span.base {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border: 1px solid #00bfff;
+    box-sizing: border-box;
+}
+
+.home-button span.text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    font-size: 15px;
+
+}
+
+.home-button:hover span.text {
+    color: #1d1d1d;
+}
+
+
+
+
+
+
+
+
+
+
+/* my code editor */
+
+.containeredit {
+    display: block;
+    gap: 20px;
+    width: 98%;
+    margin-left: 7px;
+    overflow-x: hidden;
+    position: absolute;
+    padding-top: 0px;
+
+}
+
+.language-javascript {
+    width: 98%;
+    height: 25vh;
+    overflow-x: hidden;
+}
+
+.language-css {
+    width: 98%;
+    overflow-x: hidden;
+    height: 25vh;
+}
+
+.language-html {
+    width: 98%;
+    overflow-x: hidden;
+    height: 25vh;
+}
+
+.content2 h1 {
+    padding-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #676767;
+}
+
+
+.typecon {
+    display: none;
+    flex-direction: none;
+    margin-left: 20px;
+
+}
+
+.typeconjsAn {
+    display: flex;
+    flex-direction: row;
+    margin-left: -8px;
+    gap: 20px;
+    background-color: #383838;
+    width: 180px;
+    padding-top: 5px;
+    padding-left: 20px;
+    display: flex;
+
+
+}
+
+.fa-brands fa-square-js {
+    width: 20px;
+    height: 20px;
+}
+
+.typeconjs h4 {
+    font-size: 5px;
+    padding-top: -4px;
+}
+
+.typeconcss {
+    display: flex;
+    flex-direction: row;
+    margin-left: 18.45%;
+    gap: 20px;
+    background-color: #383838;
+    width: 85px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+
+}
+
+.typeconcssAn {
+    display: flex;
+    flex-direction: row;
+    margin-left: -8px;
+    gap: 20px;
+    background-color: #383838;
+    width: 180px;
+    padding-top: 5px;
+    padding-left: 20px;
+
+
+}
+
+.fa-brands fa-css3-alt {
+    width: 20px;
+    height: 20px;
+}
+
+.typeconcss h4 {
+    font-size: 5px;
+    margin-top: -4px;
+}
+
+.typeconhtml {
+    display: flex;
+    flex-direction: row;
+    margin-left: 24.85%;
+    gap: 20px;
+    background-color: #383838;
+    width: 80px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+
+
+}
+
+.typeconhtmlAn {
+    display: flex;
+    flex-direction: row;
+    margin-left: -8px;
+    gap: 20px;
+    background-color: #383838;
+    width: 180px;
+    padding-top: 5px;
+    padding-left: 20px;
+
+
+}
+
+.iconhtmlAn {
+    width: 10px;
+    height: 10px;
+    position: relative;
+}
+
+.iconhtml .fa-brands fa-html5 {
+    width: 10px;
+    height: 10px;
+    color: #E75710;
+    position: absolute;
+
+}
+
+
+.typeconhtml h3 {
+    font-size: 15px;
+    margin-top: -3px;
+}
+
+.containbtn {
+    background-color: #989898;
+    position: fixed;
+    margin-top: 100px;
+}
+
+.containerab {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3%;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.bodab {
+    width: 100%;
+    line-height: 1.5;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.boimg img {
+    margin-left: 50px;
+    width: 450px;
+    height: 500px;
+    display: none;
+}
+
+.boimgd img {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 340px;
+    height: 340px;
+    margin-top: 60px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 950px) {
+
+
+    html {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-color: #181818;
+        padding: 0;
+        margin: 0;
+    }
+
+
+
+    .blured {
+        height: 100vh;
+        width: 90%;
+        z-index: 10000000000;
+        background-color: #000000b6;
+        display: none;
+        margin-left: 230px;
+        position: fixed;
+    }
+    header {
+    
+    }
+
+    /* project content */
+
+    .content1 {
+        width: 65%;
+        height: 100vh;
+        background-color: #1E1E1E;
+        margin-left: 255px;
+        overflow-y: scroll;
+    }
+
+    .content2 {
+        width: 100%;
+        height: 100vh;
+        background-color: #1E1E1E;
+        margin-left: 0px;
+        overflow-y: scroll;
+    }
+
+    .content1::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    .closebtnzz {
+        z-index: 10000000000000;
+        margin-left: 91.5%;
+        margin-top: 5px;
+        color: #00bfff;
+        position: absolute;
+    }
+
+    /* Designers Desk */
+
+
+    .titletxt {
+        font-size: 50px;
+        margin-top: 20px;
+        margin-left: 0%;
+        font-weight: bold;
+        text-align: none;
+    }
+
+    .mood {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .cons {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .titlecon {
+        font-size: 30px;
+        padding-left: 20px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .mood .text {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        line-height: 30px;
+        margin-left: 0px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+
+    .mood img {
+        width: 50%;
+        border-radius: 50px;
+        display: flex;
+    }
+
+
+
+    .colour {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        padding: 10px;
+
+    }
+
+    .picinv {
+        display: none;
+    }
+
+    .cons2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .colour .text {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        line-height: 30px;
+        margin-right: 10px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+
+    .colour img {
+        width: 50%;
+
+    }
+
+    .gif {
+        display: flex;
+        flex-direction: row;
+        margin-top: 70px;
+        padding: 20px;
+        margin-bottom: 70px;
+
+    }
+
+    .cons4 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+    }
+
+    .titlecon2 {
+        font-size: 30px;
+        padding-left: 40px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .titlecon3 {
+        font-size: 30px;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .gif .text {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        line-height: 30px;
+        margin-left: 30px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+
+    .gif img {
+        width: 47%;
+        padding-left: 10px;
+
+    }
+
+
+
+    .var {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        padding: 20px;
+
+    }
+
+    .cons3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .var .text {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        line-height: 30px;
+        margin-right: 5px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+
+    .var .pic {
+        width: 50%;
+        margin-right: 0px;
+        margin-left: 10px;
+        display: flex;
+    }
+
+
+    /*Designer Desk project end*/
+
+
+
+
+
+
+
+    /*Pacman project starts*/
+
+
+
+    .pacgif {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .cons {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .titlecon {
+        font-size: 30px;
+        padding-left: 20px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .pacgif .text {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        line-height: 30px;
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+
+    .cons5 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+
+    .gifpicz {
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: auto;
+        border-radius: 0px;
+        display: flex;
+
+    }
+
+    .gifpicz2 {
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: auto;
+        border-radius: 0px;
+        display: none;
+
+    }
+
+
+    .pacvid {
+        padding-left: 30px;
+        margin-top: 50px;
+        display: flex;
+        background-color: #000;
+    }
+
+    .pacvidan {
+        padding-left: 0px;
+        margin-top: 50px;
+        display: none;
+    }
+
+    /*Pacman project end*/
+
+
+
+
+
+
+
+    /*Pacman project starts*/
+
+
+
+    /*Pacman project end*/
+
+
+
+
+
+    /*Data Story*/
+
+    .Datatext {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 0px;
+        line-height: 30px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .datapic {
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        position: relative;
+    }
+
+    .datapican {
+        width: 100%;
+        padding: 0px;
+        display: none;
+    }
+
+
+    .link {
+        color: #181818;
+        position: fixed;
+        background-color: #0bbfff;
+        width: 65%;
+        margin-right: 50%;
+        height: 30px;
+        text-decoration: none;
+        z-index: 1000000000000;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 97vh;
+        text-align: center;
+
+    }
+
+
+    /*Data Story ends here*/
+
+
+    /* Airtel project */
+
+    .linkAir {
+        color: #181818;
+        position: fixed;
+        background-color: #0bbfff;
+        width: 65%;
+        margin-right: 50%;
+        height: 30px;
+        text-decoration: none;
+        z-index: 1000000000000;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 97vh;
+        text-align: center;
+
+    }
+
+
+    .textAir {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        line-height: 30px;
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    .endpic {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 30px;
+        display: flex;
+    }
+
+    /* Airtel project end here */
+
+    /* Yes Triangle */
+
+    .intro img {
+        width: 100%;
+        height: 500px;
+        margin-left: -60px;
+        margin-top: 130px;
+    }
+
+    /*Yes Triangle end*/
+
+    .closebtn {
+        color: #0bbfff;
+        background-color: rgba(0, 0, 0, 0);
+        stroke: #18181800;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+        margin-left: 1460px;
+        margin-top: 10px;
+    }
+
+
+
+
+    /* Error page starts here */
+
+    .Imagecontainer {
+        width: 100%;
+        height: 100vh;
+        background-color: #181818;
+        max-height: 1080px;
+        display: block;
+        cursor: url(./Sound/Polygon\ 1.svg)
+    }
+
+    .ImagecontainerAn {
+        width: 100%;
+        height: 100vh;
+        background-color: #181818;
+        padding: 0;
+        margin: 0;
+        display: none;
+
+    }
+
+    .ErrImage {
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        cursor: url(./Sound/Polygon\ 1.svg)
+    }
+
+    .ErrImageAn {
+        width: 100%;
+        height: 100%;
+        display: none;
+        cursor: url(./Sound/Polygon\ 1.svg)
+    }
+
+
+    .TitleErr {
+        display: flex;
+        color: #ffffff;
+        position: absolute;
+        margin-left: 24.5%;
+        margin-top: 8%;
+    }
+
+    .TitleErr span {
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 100px;
+    }
+
+    .O3 {
+        width: 80px;
+        height: 80px;
+        padding-top: 15px;
+    }
+
+    .Titlenumber {
+        display: flex;
+        color: #ffffff;
+        position: absolute;
+        margin-left: 24.8%;
+        margin-top: 13.5%;
+    }
+
+    .Titlenumber span {
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 190px;
+    }
+
+    .O2 {
+        width: 150px;
+        height: 150px;
+        padding-top: 30px;
+    }
+
+    .Titlecon {
+        color: #989898;
+        font-style: italic;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: lighter;
+        position: absolute;
+        width: 35%;
+        margin-top: 29%;
+        margin-left: 18.5%;
+        text-align: center;
+    }
+
+    /* home button */
+    .home-button {
+        margin-top: 35%;
+        margin-left: 30%;
+        text-decoration: none;
+        width: 100%;
+        max-width: 200px;
+        height: 40px;
+        display: block;
+        line-height: 40px;
+        letter-spacing: 3px;
+        position: absolute;
+        text-align: center;
+        color: #00bfff;
+        cursor: url(./Sound/Polygon\ 1.svg), auto;
+    }
+
+    .home-button div {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: all .3s ease-in-out;
+    }
+
+    .home-button span.bg {
+        position: absolute;
+        width: 0%;
+        height: 100%;
+        left: -5px;
+        top: 0;
+        transition: all .3s ease-in-out;
+        background-color: #00bfff;
+        transform: skewX(-19deg);
+
+    }
+
+    .home-button:hover span.bg {
+        width: 110%;
+    }
+
+    .home-button span.base {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        border: 1px solid #00bfff;
+        box-sizing: border-box;
+    }
+
+    .home-button span.text {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        font-size: 15px;
+
+    }
+
+    .home-button:hover span.text {
+        color: #1d1d1d;
+    }
+
+
+
+
+
+
+    /* my code editor */
+
+    .containeredit {
+        display: flex;
+        gap: 10px;
+        width: 98%;
+        margin-left: 10px;
+        overflow-x: hidden;
+        position: absolute;
+        padding-top: 0px;
+
+    }
+
+    .language-javascript {
+        width: 31%;
+        height: 80vh;
+        overflow-x: hidden;
+    }
+
+    .language-css {
+        width: 31%;
+        overflow-x: hidden;
+        height: 80vh;
+    }
+
+    .language-html {
+        width: 31%;
+        overflow-x: hidden;
+        height: 80vh;
+    }
+
+    .content2 h1 {
+        padding-left: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 40px;
+        color: #676767;
+    }
+
+    .typecon {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+
+    }
+
+    .typeconjs {
+        display: flex;
+        flex-direction: row;
+        margin-left: -8px;
+        gap: 20px;
+        background-color: #383838;
+        width: 180px;
+        padding-top: 10px;
+        padding-left: 10px;
+
+
+    }
+
+    .fa-brands fa-square-js {
+        width: 20px;
+        height: 20px;
+    }
+
+    .typeconjs h3 {
+        font-size: 20px;
+        margin-top: -3px;
+    }
+
+    .typeconcss {
+        display: flex;
+        flex-direction: row;
+        margin-left: 18.45%;
+        gap: 20px;
+        background-color: #383838;
+        width: 95px;
+        padding-top: 10px;
+        padding-left: 10px;
+
+
+    }
+
+    .fa-brands fa-css3-alt {
+        width: 20px;
+        height: 20px;
+    }
+
+    .typeconcss h3 {
+        font-size: 20px;
+        margin-top: -3px;
+    }
+
+    .typeconhtml {
+        display: flex;
+        flex-direction: row;
+        margin-left: 24.85%;
+        gap: 20px;
+        background-color: #383838;
+        width: 110px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+
+
+    }
+
+    .iconhtml {
+        width: 10px;
+        height: 10px;
+        position: relative;
+    }
+
+    .iconhtml .fa-brands fa-html5 {
+        width: 10px;
+        height: 10px;
+        color: #E75710;
+        position: absolute;
+
+    }
+
+
+    .typeconhtml h3 {
+        font-size: 20px;
+        margin-top: -3px;
+    }
+
+    .typeconjsAn {
+        display: flex;
+        flex-direction: row;
+        margin-left: -8px;
+        gap: 20px;
+        background-color: #383838;
+        width: 180px;
+        padding-top: 10px;
+        padding-left: 20px;
+        display: none;
+
+
+    }
+
+    .typeconcssAn {
+        display: flex;
+        flex-direction: row;
+        margin-left: -8px;
+        gap: 20px;
+        background-color: #383838;
+        width: 180px;
+        padding-top: 10px;
+        padding-left: 20px;
+        display: none;
+
+
+
+    }
+
+
+    .typeconhtmlAn {
+        display: none;
+        flex-direction: row;
+        margin-left: -8px;
+        gap: 20px;
+        background-color: #383838;
+        width: 180px;
+        padding-top: 10px;
+        padding-left: 20px;
+
+
+    }
+
+    .containbtn {
+        background-color: #98989800;
+        position: absolute;
+        margin-top: 100px;
+        display: none;
+    }
+
+    .backbutton {
+        display: none;
+        opacity: 0;
+    }
+
+
+    .containerab {
+        margin-left: 20rem;
+        margin-right: 5rem;
+        margin-top: 7%;
+        display: flex;
+    }
+
+    .bodab {
+        width: 100vw;
+        line-height: 1.5;
+        margin-top: 130px;
+        text-align: left;
+
+    }
+
+    .boimg img {
+        margin-left: 50px;
+        width: 450px;
+        height: 500px;
+        display: block;
+    }
+    .boimgd img {
+        margin-left: 50px;
+        width: 450px;
+        height: 500px;
+        display: none;
+    }
+
+
+
+
+
+
+    /* the videos */
+
+    .vidsw {
+        position: relative;
+        z-index: 10000;
+        margin-left: 54%;
+        margin-top: -123%;
+    }
+
+    .vidpm {
+        position: relative;
+        z-index: 10000;
+        margin-left: 54%;
+        margin-top: -121%;
+    }
+
+    .vidbt {
+        position: relative;
+        z-index: 10000;
+        margin-left: 54%;
+        margin-top: -139.5%;
+    }
+
+}
